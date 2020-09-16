@@ -6,7 +6,7 @@
 sudo apt-get update  
 sudo apt-get upgrade  
 sudo apt-get install git  
-git clone https://github.com/codingjin/kernelenv.git
+git clone https://github.com/codingjin/kernelenv.git  
 cd kernelenv  
 
 ### 2.Set environmental variables
