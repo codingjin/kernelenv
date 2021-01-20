@@ -38,7 +38,11 @@ $BASE/scripts/mount_qemu.sh
 cd $MOUNT_DIR                      //Go to where the QEMU disk is mounted  
 sudo chroot .                             //set the disk as your root file system  
 passwd                                     //add new password for the root user in the virtual machine  
-sudo apt-get install -y build-essential cmake libssl-dev  
+
+sudo apt-get update; sudo apt-get -y install curl tar gcc make time
+sudo apt-get install -y flex bison python-dev libelf-dev libaudit-dev libslang2-dev libperl-dev binutils-dev liblzma-dev libnuma-dev
+sudo apt-get install -y git vim screen usbutils build-essential cmake libssl-dev  
+
 exit                                            //Unmount the QEMU disk  
 cd $BASE  
 $BASE/scripts/umount_qemu.sh         //Unmount the QEMU disk  
