@@ -18,9 +18,7 @@ sudo make $PARA
 #sudo make modules_install
 #sudo make install
 
-y="5.8.9"
-
-sudo cp ./arch/x86/boot/bzImage $KERNEL/vmlinuz-$y
-sudo cp System.map $KERNEL/System.map-$y
-sudo cp .config $KERNEL/config-$y
+sudo cp ./arch/x86/boot/bzImage $KERNEL/vmlinuz-$VER
+sudo cp System.map $KERNEL/System.map-$VER
+sudo cp .config $KERNEL/config-$VER
 
