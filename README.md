@@ -18,7 +18,8 @@ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.tar.xz
 tar xf linux-5.9.tar.xz  
 
 ### 4.Install required libraries
-sudo apt-get install -y curl tar make time flex bison python-dev libelf-dev libaudit-dev libslang2-dev libperl-dev binutils-dev liblzma-dev libnuma-dev usbutils build-essential  libssl-dev libelf-dev
+sudo apt-get install -y build-essential cmake libssl-dev bison flex
+
 
 ### 5.Compile the Kernel
 From the source directory set the environment variables.   
