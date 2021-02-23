@@ -8,7 +8,7 @@ export QEMU_IMG=$BASE
 export KERN_SRC=$BASE/linux-5.10.18
 export KERNEL=$BASE/KERNEL
 #CPU parallelism
-export PARA="-j64"
+export PARA="-j $(nproc)"
 export VER="5.10.18"
 export QEMU_IMG_FILE=$PWD/qemu-image.img
 export MOUNT_DIR=$PWD/mountdir
