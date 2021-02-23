@@ -14,8 +14,8 @@ source scripts/setvars.sh
 
 ### 3.Get Kernel Source
 cd $BASE  
-wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.tar.xz
-tar xf linux-5.9.tar.xz  
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.18.tar.xz
+tar xf linux-5.10.18.tar.xz  
 
 ### 4.Install required libraries
 sudo apt-get install -y build-essential cmake libssl-dev bison flex
