@@ -16,4 +16,3 @@ export QEMUMEM="8000M"
 mkdir $KERNEL
 
 set +x
-
