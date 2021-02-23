@@ -22,7 +22,7 @@ sudo apt-get install -y build-essential cmake libssl-dev bison flex
 
 
 ### 5.Compile the Kernel
-From the source directory set the environment variables.   
+From the kernelenv directory set the environment variables.   
 source scripts/setvars.sh  
 $BASE/scripts/compile_kernel.sh  
 
