@@ -15,6 +15,7 @@ source scripts/setvars.sh
 ### 3.Get Kernel Source
 cd $BASE  
 wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.18.tar.xz
+
 tar xf linux-5.10.18.tar.xz  
 
 ### 4.Install required libraries
